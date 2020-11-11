@@ -1,0 +1,166 @@
+body{
+    background-color: #000;
+};
+
+.ycenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.fecha{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 33px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    max-width: 900px;
+}
+@media screen and (max-width: 478px){
+    .fecha p{
+        font-size: 17px;
+        
+    }
+    .hora p{
+        font-size: 20px;
+    }
+}
+    
+.hora{
+    font-family: 'Londrina Outline', cursive;
+    font-size: 100px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 5%;
+    max-width: 600px;
+ }
+
+.green {
+    text-shadow: 
+        0 0 5px #cdf100,
+        0 0 10px #cdf100,
+        0 0 20px #cdf100,
+        0 0 40px #cdf100,
+        0 0 80px #cdf100,
+        0 0 90px #cdf100,
+        0 0 100px #cdf100,
+        0 0 150px #cdf100;
+}
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+/*X-SMALL DEVICES PUBLICIDAD*/
+/* @media all and (max-width:576px){
+    .fecha{
+        font-family: 'Orbitron', sans-serif;
+        font-size: 13px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        max-width: 900px;
+    }
+    
+    .hora{
+        font-family: 'Londrina Outline', cursive;
+        font-size: 50px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-top: 5%;
+        max-width: 600px;
+    }
+  } */
+ 
+ /*SMALL DEVICES*/
+ /* @media all and (min-width:576px) and (max-width:768px){
+    .fecha{
+        font-family: 'Orbitron', sans-serif;
+        font-size: 20px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        max-width: 900px;
+    }
+    
+    .hora{
+        font-family: 'Londrina Outline', cursive;
+        font-size: 50px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-top: 5%;
+        max-width: 600px;
+    }
+  } */
+  
+  /*MEDIUM DEVICES*/
+  /* @media all and (min-width: 768px) and (max-width:991px){
+    .fecha{
+        font-family: 'Orbitron', sans-serif;
+        font-size: 33px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        max-width: 900px;
+    }
+    
+    .hora{
+        font-family: 'Londrina Outline', cursive;
+        font-size: 100px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-top: 5%;
+        max-width: 600px;
+    }
+  } */
+  
+  /*LARGE DEVICES*/
+    /* @media all and (min-width: 991px){
+        .fecha{
+            font-family: 'Orbitron', sans-serif;
+            font-size: 33px;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            max-width: 900px;
+        }
+        
+        .hora{
+            font-family: 'Londrina Outline', cursive;
+            font-size: 100px;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-top: 5%;
+            max-width: 600px;
+        }
+  } */
+
+  /*XTRA LARGE DEVICES*/
+    /* @media all and (min-width: 1200px){
+        .fecha{
+            font-family: 'Orbitron', sans-serif;
+            font-size: 33px;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            max-width: 900px;
+        }
+        
+        .hora{
+            font-family: 'Londrina Outline', cursive;
+            font-size: 100px;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-top: 5%;
+            max-width: 600px;
+        }
+  }  */
