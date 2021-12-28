@@ -1,30 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOM - RELOJ</title>
-    <link rel ="stylesheet" href="css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Orbitron&display=swap" rel="stylesheet">
-    <link rel = "stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Orbitron&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <main class="container green ycenter">
-        <div class="d-flex justify-content-around fecha mx-auto">
-            <p id="diaSemana"></p>
-            <p id="dia"></p>
-            <p> de</p>
-            <p id="mes"></p>
-            <p> del</p>
-            <p id="anio"></p>
+    <main class="container green text-center">
+        <div class="fecha">
+            <div class="d-flex justify-content-center">
+                <p class="mr-2" id="diaSemana"> </p>
+                <p class="ml-2" id="dia"></p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p class="mr-2"> de</p>
+                <p class="ml-2" id="mes"></p>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p class="mr-2"> del</p>
+                <p class="ml-2" id="anio"></p>
+            </div>
         </div>
-        <div class="d-flex justify-content-around hora mx-auto">
+            <div class="hora mt-0 d-flex justify-content-center">
             <p id="horas"></p>
             <p>:</p>
             <p id="minutos"></p>
             <p>:</p>
-            <p id="segundos"></p>
-            <p id="ampm"></p>
+            <p class="mr-2" id="segundos"></p>
+            <p class="ml-2" id="ampm"></p>
         </div>
     </main>
     <script src="js/jquery-3.5.1.min.js"></script>
@@ -33,6 +42,7 @@
     <!-- <script src="js/bom.js"></script> -->
     <script src="js/reloj.js"></script>
 
-    
+
 </body>
+
 </html>
